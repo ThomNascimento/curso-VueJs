@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--essa aula faz referncia ao vídeo 11-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Aula 02</title>
+</head>
+<body>
+
+    <div id="app">
+        <p> {{ curso }} | {{ instrutor }}</p>
+    </div>
+
+
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: {
+                curso: 'VueJs!',
+                instrutor: 'Plínio Naves'
+            },
+            methods:{
+                nomeDoInstrutor: function(){
+                    /*o this. ele aponta diretamente para a propriedade data da instacia do VueJs
+                    desse modo conseguimos acessar dados da instância internamente*/
+                    return this.instrutor;
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
