@@ -9,7 +9,7 @@ Se tornou <strong>extremamente popular</strong> pela sua habilidade de mesclar <
 
 Com uma <strong>curva de aprendizado muito baixa</strong>, Vue entrega ao desenvolvedor as ferramentas essenciais a qualquer projeto, seja ele de pequeno até grande porte a nível empresarial.
 
-## Conehcimentos adiquiridos ao longo do curso
+## Conhecimentos adiquiridos ao longo do curso
 
 - Criar aplicações Web incríveis de pequeno a grande porte com VueJS
 - Entender a teoria por trás de como o VueJS funciona e aplicar isto em seus projetos
